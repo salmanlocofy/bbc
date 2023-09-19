@@ -1,0 +1,243 @@
+.graphLinesIcon {
+  position: absolute;
+  height: 66.45%;
+  width: 81.27%;
+  top: 20.37%;
+  right: 6.08%;
+  bottom: 13.18%;
+  left: 12.65%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div,
+.div1 {
+  left: 0;
+  letter-spacing: 0.02em;
+  line-height: 120%;
+}
+.div {
+  position: absolute;
+  top: 0;
+}
+.div1 {
+  top: 15.67%;
+}
+.div1,
+.div2,
+.div3 {
+  position: absolute;
+}
+.div2 {
+  top: 31.35%;
+  left: 0;
+  letter-spacing: 0.02em;
+  line-height: 120%;
+}
+.div3 {
+  top: 47.02%;
+}
+.div3,
+.div4,
+.div5 {
+  left: 0;
+  letter-spacing: 0.02em;
+  line-height: 120%;
+}
+.div4 {
+  position: absolute;
+  top: 62.7%;
+}
+.div5 {
+  top: 78.37%;
+}
+.div5,
+.div6,
+.prices {
+  position: absolute;
+}
+.div6 {
+  top: 94.04%;
+  left: 0;
+  letter-spacing: 0.02em;
+  line-height: 120%;
+}
+.prices {
+  top: 83.28px;
+  left: 29.93px;
+  width: 37px;
+  height: 319px;
+  font-size: var(--font-size-base);
+}
+.apr,
+.aug,
+.dec,
+.feb,
+.jan,
+.jul,
+.jun,
+.mar,
+.may,
+.nov,
+.oct {
+  position: absolute;
+  top: 0;
+  left: 8.7%;
+  letter-spacing: 0.02em;
+  line-height: 120%;
+}
+.apr,
+.aug,
+.dec,
+.feb,
+.jan,
+.jul,
+.jun,
+.mar,
+.may,
+.nov {
+  left: 17.05%;
+}
+.apr,
+.aug,
+.dec,
+.feb,
+.jan,
+.jul,
+.jun,
+.mar,
+.may {
+  left: 26.28%;
+}
+.apr,
+.aug,
+.feb,
+.jan,
+.jul,
+.jun,
+.mar,
+.may {
+  left: 34.99%;
+}
+.apr,
+.aug,
+.feb,
+.jul,
+.jun,
+.mar,
+.may {
+  left: 42.8%;
+}
+.apr,
+.aug,
+.jul,
+.jun,
+.mar,
+.may {
+  left: 51.68%;
+}
+.apr,
+.aug,
+.jul,
+.jun,
+.may {
+  left: 60.56%;
+}
+.aug,
+.jul,
+.jun,
+.may {
+  left: 69.08%;
+}
+.aug,
+.jul,
+.jun {
+  left: 77.96%;
+}
+.aug,
+.jul {
+  left: 86.84%;
+}
+.aug {
+  left: 95.36%;
+}
+.graphIcon,
+.months {
+  position: absolute;
+  top: 410.61px;
+  left: 87.01px;
+  width: 560.78px;
+  height: 17px;
+}
+.graphIcon {
+  height: 45.81%;
+  width: 79.55%;
+  top: 40.98%;
+  right: 7.01%;
+  bottom: 13.22%;
+  left: 13.44%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.locationName {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 120%;
+}
+.rect {
+  position: relative;
+  border-radius: 2px;
+  background-color: var(--accent);
+  width: 14px;
+  height: 14px;
+}
+.icon,
+.location {
+  position: absolute;
+}
+.location {
+  height: 4.42%;
+  top: 7.91%;
+  bottom: 87.67%;
+  left: 29.93px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 13px;
+  color: var(--darker-text);
+}
+.icon {
+  top: calc(50% - 6.75px);
+  left: calc(50% - 6.75px);
+  border-radius: 1px;
+  width: 13.5px;
+  height: 13.5px;
+}
+.iconclose {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 18px;
+  right: 18.08px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.graph {
+  border-radius: var(--br-4xs);
+  background-color: var(--white);
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+  width: 688px;
+  height: 453px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}

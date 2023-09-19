@@ -1,0 +1,71 @@
+.avatarIcon {
+  position: relative;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.wesleyBernard {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.wesleybernardgmailcom {
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.02em;
+  color: var(--darker-text);
+}
+.userInfo,
+.userInfoMain {
+  display: flex;
+  justify-content: flex-start;
+}
+.userInfo {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+}
+.userInfoMain {
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-grey-border);
+  flex-direction: row;
+  padding: 0 0 var(--padding-sm);
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.accountSettings {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+}
+.accountInfoPopup,
+.linksGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.linksGroup {
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-grey-border);
+  padding: 0 0 var(--padding-sm);
+}
+.accountInfoPopup {
+  border-radius: var(--br-4xs);
+  background-color: var(--white);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 304px;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
