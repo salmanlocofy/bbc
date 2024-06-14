@@ -1,0 +1,6 @@
+.frameDiv {
+  width: 341px;
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+  height: 892px;
+  overflow: hidden;
+}
